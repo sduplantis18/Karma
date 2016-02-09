@@ -1,0 +1,135 @@
+
+
+/* global font declarations */
+
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 0.03em;
+}
+
+h1 {
+    color: white;
+    font-weight: 300;
+    font-size: -webkit-xxx-large;
+    margin-bottom: 0;
+}
+
+/*
+div {
+    border: 1px solid Chocolate;
+}
+*/
+
+/* Navigation content*/
+
+.top-navigation {
+    background-color: #fff;
+}
+
+.top-navigation > .content {
+    width: 60em;
+    height: 70px;
+    margin: 0 auto;
+    padding: 0 .9em;
+}
+
+.top-navigation .links {
+    float: right;
+    margin-top: 1.6em;
+    font-size: 1.1em;
+    color: #838994;
+} 
+
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 2em;
+}
+
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: darkgrey;
+}
+
+.logo {
+    height: 4.375rem;
+    float: left;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+/* main content */
+
+.background-main {
+    background-image: url('../Images/first-background%20copy.jpg');
+    background-size: cover;
+    background-position: bottom center;
+    height: 40em;
+}
+
+.background-main > .content {
+    padding: 12em 8em;
+    text-align: center;
+}
+
+.content {
+    padding: 6em 6em;
+    text-align: center;
+}
+
+
+.background-main h3 {
+    color: white;
+    font-weight: 200;
+}
+
+.buttons {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    background-color: #f15a29;
+    max-width: 8em;
+    margin: 0 auto;
+}
+
+.background-main .buttons:hover {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+/* Devices image list section */
+
+.cases .content {
+    margin-top: 2em;
+    padding: 5em;
+    color: #1d1e21;
+    text-align: center;
+}
+
+.cases .devices {
+    width: 100%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    box-sizing: border-box;
+    height: 10em;
+    list-style: none;
+}
+
+.cases .devices > li {
+    width: 33%;
+    float: left;
+}
+
+.cases h2 {
+    color: black;
+    font-weight: 300;
+    font-size: 2.75em;
+    
+}
+
