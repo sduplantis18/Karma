@@ -17,6 +17,11 @@ h1 {
     margin-bottom: 0;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
 /*
 div {
     border: 1px solid Chocolate;
@@ -133,3 +138,20 @@ div {
     
 }
 
+
+/*  footer declarations */
+
+hr {
+    border-color: gray;
+}
+
+.icons li {
+    display: inline-block;
+    border: 1px solid darkgray;
+    border-radius: 20%;
+}
+
+.copy {
+    font-weight: 300;
+    color: darkgray;
+}
